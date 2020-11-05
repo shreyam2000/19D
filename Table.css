@@ -3,9 +3,10 @@ width:80%;
 margin:auto;
 text-align:center;
 }
-h1{
+h1,td{
 text-align:center;
 }
 th{
 background-color:lightblue;
 }
+
