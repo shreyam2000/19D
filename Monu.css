@@ -5,3 +5,8 @@ margin:auto;
 h1,h2{
 text-align:center;
 }
+#marqueestyle{
+padding:10px;
+height:100px;
+font-weight:bold;
+}
