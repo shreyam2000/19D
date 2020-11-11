@@ -16,12 +16,16 @@ Date of Birth:<input type="date" /><br /><br />
 <input type="password" placeholder="Your Password" />
 <input type="password" placeholder="Confirm Password" /><br /><br />
 <textarea rows="5" cols="30" placeholder="Address"></textarea><br /><br /> 
-Programme:
-Computer science: <input type="radio" value="computer science" name="Programme" />
-Physics: <input type="radio" value="physics" name="Programme" />
-Chemistry: <input type="radio" value="chemistry" name="Programme" />
-Mathematics: <input type="radio" value="mathematics" name="Programme" />
-Statistics: <input type="radio" value="statistics" name="Programme" /><br/><br />
+Programs:
+<input type="text" list="programs"/>
+<datalist id="programs">
+<option value="computer science"/>
+<option value="physics"/>
+<option value="chemistry"/>
+<option value="mathematics"/>
+<option value="statistics"/>
+</datalist>
+<br /><br />
 University:
 <select required>
 <option> Kannur University </option>
